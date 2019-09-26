@@ -92,12 +92,6 @@ body {
   justify-content: flex-start;
   margin: 0 -15px; }
 
-[class^="col-1-"] {
-  padding: 0 15px; }
-
-.col-1-1 {
-  width: 50%; }
-
 .scroll-down-btn {
   position: absolute;
   bottom: 0;
