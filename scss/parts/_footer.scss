@@ -1,0 +1,45 @@
+.footer {
+    text-align: center;
+    background-color: #262626;
+
+    @media only screen
+    and (min-width: 320px)
+    and (max-width: 768px) {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    @media only screen
+    and (min-width: 768px)
+    and (max-width: 1224px) {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    @media only screen
+    and (min-width: 1224px) {
+        padding-top: 122px;
+        padding-bottom: 52px;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-family: $font-josefin;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: 2.2px;
+        color: $color-white;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        font-family: $font-josefin;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: .6px;
+        color: $color-white;  
+        margin-bottom: 28px;
+    }
+}

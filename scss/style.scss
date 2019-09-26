@@ -1,0 +1,22 @@
+@import "mixins";
+@import "variables";
+
+// Common 
+@import "common/typography";
+@import "common/general";
+
+// Elements
+@import "elements/btn";
+@import "elements/grid";
+@import "elements/scroll-down-btn";
+@import "elements/search-form";
+@import "elements/social-networks";
+
+// Parts
+@import "parts/footer";
+@import "parts/header";
+@import "parts/hero";
+@import "parts/location-example";
+@import "parts/steps";
+@import "parts/what-our-tourist-say";
+@import "parts/why-choose-us";
